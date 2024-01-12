@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Fri Nov 17 15:59:10 2023
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : DSDProject
+Top-level Entity Name : vga_top
+Family : MAX 10
+Total logic elements : 39,151
+    Total combinational functions : 38,624
+    Dedicated logic registers : 2,722
+Total registers : 2722
+Total pins : 38
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 156
+Total PLLs : 1
+UFM blocks : 0
+ADC blocks : 0

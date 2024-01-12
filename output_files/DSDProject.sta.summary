@@ -1,0 +1,689 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'vga_controller:U2|disp_ena'
+Slack : -117.589
+TNS   : -4279.660
+
+Type  : Slow 1200mV 85C Model Setup 'dsdproject:U3|mountain_clk'
+Slack : -101.944
+TNS   : -3054.089
+
+Type  : Slow 1200mV 85C Model Setup 'dsdproject:U3|pause:PC|SoG'
+Slack : -55.825
+TNS   : -20501.098
+
+Type  : Slow 1200mV 85C Model Setup 'pixel_clk_m'
+Slack : -54.935
+TNS   : -19457.055
+
+Type  : Slow 1200mV 85C Model Setup 'shoot'
+Slack : -51.778
+TNS   : -15496.792
+
+Type  : Slow 1200mV 85C Model Setup 'dsdproject:U3|movement_clock'
+Slack : -25.134
+TNS   : -3417.039
+
+Type  : Slow 1200mV 85C Model Setup 'dsdproject:U3|buzzer:B0|bz1_clk'
+Slack : -7.767
+TNS   : -112.179
+
+Type  : Slow 1200mV 85C Model Setup 'pause_toggle'
+Slack : -6.962
+TNS   : -6.962
+
+Type  : Slow 1200mV 85C Model Setup 'dsdproject:U3|controller:MC|clock_x'
+Slack : -6.063
+TNS   : -66.241
+
+Type  : Slow 1200mV 85C Model Setup 'dsdproject:U3|\projectileMoveClock:proj_clock_counter[0]'
+Slack : -4.847
+TNS   : -1874.810
+
+Type  : Slow 1200mV 85C Model Setup 'reset_RNG'
+Slack : -3.489
+TNS   : -13.795
+
+Type  : Slow 1200mV 85C Model Setup 'dsdproject:U3|controller:MC|clock_y'
+Slack : -1.797
+TNS   : -15.368
+
+Type  : Slow 1200mV 85C Model Setup 'dsdproject:U3|RNG10:U1|Clock_Divider:U11|tmp'
+Slack : -0.878
+TNS   : -10.138
+
+Type  : Slow 1200mV 85C Model Setup 'dsdproject:U3|rstScreenS'
+Slack : -0.761
+TNS   : -1.800
+
+Type  : Slow 1200mV 85C Model Setup 'U1|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 31.139
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'shoot'
+Slack : -3.760
+TNS   : -131.612
+
+Type  : Slow 1200mV 85C Model Hold 'pixel_clk_m'
+Slack : -0.836
+TNS   : -27.931
+
+Type  : Slow 1200mV 85C Model Hold 'dsdproject:U3|\projectileMoveClock:proj_clock_counter[0]'
+Slack : -0.502
+TNS   : -0.769
+
+Type  : Slow 1200mV 85C Model Hold 'dsdproject:U3|RNG10:U1|Clock_Divider:U11|tmp'
+Slack : 0.055
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'dsdproject:U3|pause:PC|SoG'
+Slack : 0.307
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'dsdproject:U3|buzzer:B0|bz1_clk'
+Slack : 0.323
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'dsdproject:U3|rstScreenS'
+Slack : 0.359
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'U1|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.627
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'dsdproject:U3|movement_clock'
+Slack : 0.793
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'reset_RNG'
+Slack : 0.877
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'pause_toggle'
+Slack : 0.946
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'dsdproject:U3|controller:MC|clock_y'
+Slack : 1.046
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'dsdproject:U3|mountain_clk'
+Slack : 1.282
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'dsdproject:U3|controller:MC|clock_x'
+Slack : 1.503
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'vga_controller:U2|disp_ena'
+Slack : 2.296
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'dsdproject:U3|movement_clock'
+Slack : -8.670
+TNS   : -1756.368
+
+Type  : Slow 1200mV 85C Model Recovery 'dsdproject:U3|rstScreenS'
+Slack : -5.648
+TNS   : -22.526
+
+Type  : Slow 1200mV 85C Model Recovery 'shoot'
+Slack : -3.430
+TNS   : -45.329
+
+Type  : Slow 1200mV 85C Model Recovery 'pixel_clk_m'
+Slack : -2.522
+TNS   : -56.427
+
+Type  : Slow 1200mV 85C Model Recovery 'pause_toggle'
+Slack : -1.458
+TNS   : -1.458
+
+Type  : Slow 1200mV 85C Model Recovery 'dsdproject:U3|RNG10:U1|Clock_Divider:U11|tmp'
+Slack : -1.185
+TNS   : -140.190
+
+Type  : Slow 1200mV 85C Model Removal 'dsdproject:U3|RNG10:U1|Clock_Divider:U11|tmp'
+Slack : 0.632
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'dsdproject:U3|rstScreenS'
+Slack : 0.757
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'pixel_clk_m'
+Slack : 0.766
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'pause_toggle'
+Slack : 1.419
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'shoot'
+Slack : 2.092
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'dsdproject:U3|movement_clock'
+Slack : 3.407
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'shoot'
+Slack : -3.000
+TNS   : -1622.378
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'pause_toggle'
+Slack : -3.000
+TNS   : -4.291
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'reset_RNG'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'dsdproject:U3|pause:PC|SoG'
+Slack : -1.222
+TNS   : -1556.828
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'dsdproject:U3|\projectileMoveClock:proj_clock_counter[0]'
+Slack : -1.222
+TNS   : -879.840
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'dsdproject:U3|movement_clock'
+Slack : -1.222
+TNS   : -293.280
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'dsdproject:U3|RNG10:U1|Clock_Divider:U11|tmp'
+Slack : -1.222
+TNS   : -218.738
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'dsdproject:U3|mountain_clk'
+Slack : -1.222
+TNS   : -39.104
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'dsdproject:U3|buzzer:B0|bz1_clk'
+Slack : -1.222
+TNS   : -21.996
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'dsdproject:U3|controller:MC|clock_x'
+Slack : -1.222
+TNS   : -17.108
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'dsdproject:U3|controller:MC|clock_y'
+Slack : -1.222
+TNS   : -10.998
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'dsdproject:U3|rstScreenS'
+Slack : -1.222
+TNS   : -4.888
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'vga_controller:U2|disp_ena'
+Slack : 0.355
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'pixel_clk_m'
+Slack : 9.434
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'U1|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 19.619
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'vga_controller:U2|disp_ena'
+Slack : -106.584
+TNS   : -3880.962
+
+Type  : Slow 1200mV 0C Model Setup 'dsdproject:U3|mountain_clk'
+Slack : -92.318
+TNS   : -2765.743
+
+Type  : Slow 1200mV 0C Model Setup 'dsdproject:U3|pause:PC|SoG'
+Slack : -50.620
+TNS   : -18587.162
+
+Type  : Slow 1200mV 0C Model Setup 'pixel_clk_m'
+Slack : -49.766
+TNS   : -17578.864
+
+Type  : Slow 1200mV 0C Model Setup 'shoot'
+Slack : -46.906
+TNS   : -13991.276
+
+Type  : Slow 1200mV 0C Model Setup 'dsdproject:U3|movement_clock'
+Slack : -22.829
+TNS   : -3098.884
+
+Type  : Slow 1200mV 0C Model Setup 'dsdproject:U3|buzzer:B0|bz1_clk'
+Slack : -7.085
+TNS   : -101.908
+
+Type  : Slow 1200mV 0C Model Setup 'pause_toggle'
+Slack : -6.144
+TNS   : -6.144
+
+Type  : Slow 1200mV 0C Model Setup 'dsdproject:U3|controller:MC|clock_x'
+Slack : -5.392
+TNS   : -59.027
+
+Type  : Slow 1200mV 0C Model Setup 'dsdproject:U3|\projectileMoveClock:proj_clock_counter[0]'
+Slack : -4.281
+TNS   : -1626.480
+
+Type  : Slow 1200mV 0C Model Setup 'reset_RNG'
+Slack : -3.050
+TNS   : -11.464
+
+Type  : Slow 1200mV 0C Model Setup 'dsdproject:U3|controller:MC|clock_y'
+Slack : -1.537
+TNS   : -13.187
+
+Type  : Slow 1200mV 0C Model Setup 'dsdproject:U3|RNG10:U1|Clock_Divider:U11|tmp'
+Slack : -0.702
+TNS   : -5.912
+
+Type  : Slow 1200mV 0C Model Setup 'dsdproject:U3|rstScreenS'
+Slack : -0.620
+TNS   : -1.297
+
+Type  : Slow 1200mV 0C Model Setup 'U1|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 31.864
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'shoot'
+Slack : -3.457
+TNS   : -120.942
+
+Type  : Slow 1200mV 0C Model Hold 'pixel_clk_m'
+Slack : -0.817
+TNS   : -27.366
+
+Type  : Slow 1200mV 0C Model Hold 'dsdproject:U3|\projectileMoveClock:proj_clock_counter[0]'
+Slack : -0.465
+TNS   : -0.496
+
+Type  : Slow 1200mV 0C Model Hold 'dsdproject:U3|RNG10:U1|Clock_Divider:U11|tmp'
+Slack : 0.053
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'dsdproject:U3|pause:PC|SoG'
+Slack : 0.277
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'dsdproject:U3|buzzer:B0|bz1_clk'
+Slack : 0.294
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'dsdproject:U3|rstScreenS'
+Slack : 0.325
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'U1|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.551
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'dsdproject:U3|movement_clock'
+Slack : 0.722
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'reset_RNG'
+Slack : 0.825
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'pause_toggle'
+Slack : 0.921
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'dsdproject:U3|controller:MC|clock_y'
+Slack : 0.962
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'dsdproject:U3|mountain_clk'
+Slack : 1.223
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'dsdproject:U3|controller:MC|clock_x'
+Slack : 1.375
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'vga_controller:U2|disp_ena'
+Slack : 2.235
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'dsdproject:U3|movement_clock'
+Slack : -7.922
+TNS   : -1597.343
+
+Type  : Slow 1200mV 0C Model Recovery 'dsdproject:U3|rstScreenS'
+Slack : -5.117
+TNS   : -20.398
+
+Type  : Slow 1200mV 0C Model Recovery 'shoot'
+Slack : -3.088
+TNS   : -40.705
+
+Type  : Slow 1200mV 0C Model Recovery 'pixel_clk_m'
+Slack : -2.127
+TNS   : -46.556
+
+Type  : Slow 1200mV 0C Model Recovery 'pause_toggle'
+Slack : -1.327
+TNS   : -1.327
+
+Type  : Slow 1200mV 0C Model Recovery 'dsdproject:U3|RNG10:U1|Clock_Divider:U11|tmp'
+Slack : -1.015
+TNS   : -118.494
+
+Type  : Slow 1200mV 0C Model Removal 'dsdproject:U3|RNG10:U1|Clock_Divider:U11|tmp'
+Slack : 0.581
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'pixel_clk_m'
+Slack : 0.634
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'dsdproject:U3|rstScreenS'
+Slack : 0.671
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'pause_toggle'
+Slack : 1.172
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'shoot'
+Slack : 1.972
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'dsdproject:U3|movement_clock'
+Slack : 3.176
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'shoot'
+Slack : -3.000
+TNS   : -1585.611
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'pause_toggle'
+Slack : -3.000
+TNS   : -4.222
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'reset_RNG'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'dsdproject:U3|pause:PC|SoG'
+Slack : -1.222
+TNS   : -1556.828
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'dsdproject:U3|\projectileMoveClock:proj_clock_counter[0]'
+Slack : -1.222
+TNS   : -879.840
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'dsdproject:U3|movement_clock'
+Slack : -1.222
+TNS   : -293.280
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'dsdproject:U3|RNG10:U1|Clock_Divider:U11|tmp'
+Slack : -1.222
+TNS   : -218.738
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'dsdproject:U3|mountain_clk'
+Slack : -1.222
+TNS   : -39.104
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'dsdproject:U3|buzzer:B0|bz1_clk'
+Slack : -1.222
+TNS   : -21.996
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'dsdproject:U3|controller:MC|clock_x'
+Slack : -1.222
+TNS   : -17.108
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'dsdproject:U3|controller:MC|clock_y'
+Slack : -1.222
+TNS   : -10.998
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'dsdproject:U3|rstScreenS'
+Slack : -1.222
+TNS   : -4.888
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'vga_controller:U2|disp_ena'
+Slack : 0.410
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'pixel_clk_m'
+Slack : 9.604
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'U1|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 19.576
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'vga_controller:U2|disp_ena'
+Slack : -57.297
+TNS   : -2078.533
+
+Type  : Fast 1200mV 0C Model Setup 'dsdproject:U3|mountain_clk'
+Slack : -48.816
+TNS   : -1461.889
+
+Type  : Fast 1200mV 0C Model Setup 'dsdproject:U3|pause:PC|SoG'
+Slack : -26.774
+TNS   : -10290.851
+
+Type  : Fast 1200mV 0C Model Setup 'pixel_clk_m'
+Slack : -26.660
+TNS   : -10185.529
+
+Type  : Fast 1200mV 0C Model Setup 'shoot'
+Slack : -24.421
+TNS   : -7361.601
+
+Type  : Fast 1200mV 0C Model Setup 'dsdproject:U3|movement_clock'
+Slack : -12.242
+TNS   : -1714.045
+
+Type  : Fast 1200mV 0C Model Setup 'dsdproject:U3|buzzer:B0|bz1_clk'
+Slack : -3.852
+TNS   : -53.802
+
+Type  : Fast 1200mV 0C Model Setup 'pause_toggle'
+Slack : -3.187
+TNS   : -3.187
+
+Type  : Fast 1200mV 0C Model Setup 'dsdproject:U3|controller:MC|clock_x'
+Slack : -2.641
+TNS   : -27.115
+
+Type  : Fast 1200mV 0C Model Setup 'dsdproject:U3|\projectileMoveClock:proj_clock_counter[0]'
+Slack : -1.982
+TNS   : -648.286
+
+Type  : Fast 1200mV 0C Model Setup 'reset_RNG'
+Slack : -1.332
+TNS   : -2.047
+
+Type  : Fast 1200mV 0C Model Setup 'dsdproject:U3|controller:MC|clock_y'
+Slack : -0.351
+TNS   : -2.710
+
+Type  : Fast 1200mV 0C Model Setup 'dsdproject:U3|RNG10:U1|Clock_Divider:U11|tmp'
+Slack : 0.065
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'dsdproject:U3|rstScreenS'
+Slack : 0.179
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'U1|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 35.353
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'shoot'
+Slack : -2.234
+TNS   : -84.439
+
+Type  : Fast 1200mV 0C Model Hold 'dsdproject:U3|\projectileMoveClock:proj_clock_counter[0]'
+Slack : -0.197
+TNS   : -0.197
+
+Type  : Fast 1200mV 0C Model Hold 'pixel_clk_m'
+Slack : -0.117
+TNS   : -3.694
+
+Type  : Fast 1200mV 0C Model Hold 'dsdproject:U3|RNG10:U1|Clock_Divider:U11|tmp'
+Slack : 0.027
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'dsdproject:U3|pause:PC|SoG'
+Slack : 0.139
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'dsdproject:U3|buzzer:B0|bz1_clk'
+Slack : 0.147
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'dsdproject:U3|rstScreenS'
+Slack : 0.166
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'U1|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.292
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'pause_toggle'
+Slack : 0.324
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'reset_RNG'
+Slack : 0.351
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'dsdproject:U3|movement_clock'
+Slack : 0.364
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'dsdproject:U3|controller:MC|clock_y'
+Slack : 0.477
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'dsdproject:U3|mountain_clk'
+Slack : 0.486
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'dsdproject:U3|controller:MC|clock_x'
+Slack : 0.680
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'vga_controller:U2|disp_ena'
+Slack : 1.084
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'dsdproject:U3|movement_clock'
+Slack : -4.439
+TNS   : -896.484
+
+Type  : Fast 1200mV 0C Model Recovery 'dsdproject:U3|rstScreenS'
+Slack : -2.899
+TNS   : -11.566
+
+Type  : Fast 1200mV 0C Model Recovery 'pixel_clk_m'
+Slack : -1.130
+TNS   : -23.127
+
+Type  : Fast 1200mV 0C Model Recovery 'shoot'
+Slack : -1.091
+TNS   : -12.231
+
+Type  : Fast 1200mV 0C Model Recovery 'dsdproject:U3|RNG10:U1|Clock_Divider:U11|tmp'
+Slack : -0.650
+TNS   : -79.872
+
+Type  : Fast 1200mV 0C Model Recovery 'pause_toggle'
+Slack : -0.073
+TNS   : -0.073
+
+Type  : Fast 1200mV 0C Model Removal 'dsdproject:U3|RNG10:U1|Clock_Divider:U11|tmp'
+Slack : 0.317
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'pixel_clk_m'
+Slack : 0.343
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'dsdproject:U3|rstScreenS'
+Slack : 0.391
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'pause_toggle'
+Slack : 0.569
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'shoot'
+Slack : 0.837
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'dsdproject:U3|movement_clock'
+Slack : 1.888
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'shoot'
+Slack : -3.000
+TNS   : -1443.723
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'pause_toggle'
+Slack : -3.000
+TNS   : -4.259
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'reset_RNG'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'dsdproject:U3|pause:PC|SoG'
+Slack : -1.000
+TNS   : -1274.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'dsdproject:U3|\projectileMoveClock:proj_clock_counter[0]'
+Slack : -1.000
+TNS   : -720.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'dsdproject:U3|movement_clock'
+Slack : -1.000
+TNS   : -240.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'dsdproject:U3|RNG10:U1|Clock_Divider:U11|tmp'
+Slack : -1.000
+TNS   : -179.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'dsdproject:U3|mountain_clk'
+Slack : -1.000
+TNS   : -32.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'dsdproject:U3|buzzer:B0|bz1_clk'
+Slack : -1.000
+TNS   : -18.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'dsdproject:U3|controller:MC|clock_x'
+Slack : -1.000
+TNS   : -14.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'dsdproject:U3|controller:MC|clock_y'
+Slack : -1.000
+TNS   : -9.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'dsdproject:U3|rstScreenS'
+Slack : -1.000
+TNS   : -4.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'vga_controller:U2|disp_ena'
+Slack : 0.330
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'pixel_clk_m'
+Slack : 9.189
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'U1|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 19.670
+TNS   : 0.000
+
+------------------------------------------------------------
